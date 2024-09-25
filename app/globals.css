@@ -18,6 +18,18 @@ header {
   justify-content: center;
 }
 
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputBorder{
+  border: solid 1px;
+  border-radius: 4px;
+  text-align: center;
+}
+
 h1 {
   font-size: 2.2rem; /* Equivalent to text-4xl */
   font-weight: bold;

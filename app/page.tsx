@@ -38,6 +38,8 @@ export default function Home() {
         <h1 className="text-2xl font-bold">TO DO ASSESSMENT APP</h1>
         <AddTask addTask={addTask} />        
       </header>
+      <hr className="border-t-4 border-blue-400 my-4"></hr>
+
       <TodoList tasks={tasks} toggleTaskCompletion={toggleTaskCompletion} deleteTask={deleteTask} />
     </main>
   );
