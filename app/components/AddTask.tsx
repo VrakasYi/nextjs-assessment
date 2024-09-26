@@ -15,10 +15,10 @@ const AddTask: React.FC<AddTaskProps> = ({ addTask }) => {
 
   return (
     <div
-    className="input"
+    className="flex flex-col gap-2.5"
     >
       <input
-        className="inputBorder"
+        className="border border-solid border-[1px] rounded text-center"
         type="text"
         value={taskText}
         onChange={(e) => setTaskText(e.target.value)}
